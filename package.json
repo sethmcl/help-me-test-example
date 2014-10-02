@@ -1,0 +1,15 @@
+{
+  "name": "help-me-test-example",
+  "version": "0.0.1",
+  "author": "Seth McLaughlin",
+  "license": "MIT",
+  "private": true,
+  "repository": "sethmcl/help-me-test-example",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test/unit --recursive"
+  },
+  "devDependencies": {
+    "help-me-test": "0.0.2",
+    "mocha": "^1.21.4"
+  }
+}
